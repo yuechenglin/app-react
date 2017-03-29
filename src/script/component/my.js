@@ -16,7 +16,9 @@ class My extends React.Component {
       <div className="m-my">
 	        <div className="header">
 	        	<div>你还没登录哦 ! !</div>
-	        	<input type="button" value="登录"/>
+	        	<Link to="/Register" activeClassName="active">
+	        		<input type="button" value="登录"/>
+	        	</Link>
 	        </div>
 	        <ul className="list">
 	        	<li>

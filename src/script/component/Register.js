@@ -1,5 +1,6 @@
 var React = require("react");
 
+
 var Register = React.createClass({
 	getInitialState:function(){
 		return null
@@ -28,15 +29,18 @@ var Register = React.createClass({
 					that.refs.btn.value = "注册";
 					that.refs.btn.removeAttribute("disabled")
 					console.log( data);
-
-					
 				}
 			})
 		}
 	},
 	render:function(){
 		return (
-			<div>
+			<div className="m-register">
+				<header>
+		          <div className="yo-header yo-header-a">
+		            <h2 className="title">{this.props.value}</h2>   
+		          </div>
+		        </header>
 				<input type="text" placeholder="用户名" ref="userID"/>
 				<input type="password" placeholder="密码" ref="password"/>
 				<input type="button" value="注册" ref="btn"  onClick={this.register}/>

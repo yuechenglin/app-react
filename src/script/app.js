@@ -12,7 +12,7 @@ import Board from './component/board'
 import Send from './component/send'
 import Buy from './component/buy'
 import My from './component/my'
-
+import Register from './component/Register'
 ReactDOM.render(
   <Provider store={store}>
     <Router history={hashHistory}>
@@ -23,7 +23,7 @@ ReactDOM.render(
         <Route path="send" title="发布房源" component={Send}></Route>
         <Route path="my" title="我的" component={My}></Route>
       </Route>
-      
+      <Route path="/Register" title="登录" component={Register}></Route>
     </Router>
   </Provider>,
   document.getElementById('root')
