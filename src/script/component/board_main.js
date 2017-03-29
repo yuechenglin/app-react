@@ -13,7 +13,7 @@ class BoardMain extends React.Component {
 			<div className="m-boardmain">
 				<div className="part01">
 				  <h2>推荐楼盘</h2>
-				  <span>更多></span>
+				  <span>更多11111111111111></span>
 				</div>
 				{ this.state.list }
 				
