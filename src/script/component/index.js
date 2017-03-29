@@ -15,7 +15,10 @@ class Index extends React.Component {
       <div className="m-index">
         <header>
           <div className="yo-header yo-header-a">
-            <h2 className="title">{this.props.value}</h2>   
+
+            <h2 className="title">{this.props.value}</h2>
+           
+
           </div>
         </header>
         <section>
@@ -42,7 +45,9 @@ class Index extends React.Component {
             </Link>
             </li>
             <li>
-            <Link to="/my" activeClassName="active" >
+
+            <Link to="/my" activeClassName="active">
+
               <i className="yo-ico">&#xe641;</i>
               <b>我的</b>
             </Link>
