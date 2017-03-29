@@ -3,8 +3,10 @@
 @include yo-carousel(
 
 ){
+
 height: 100%;
 ul.cont {
+
     height: 100%;
     li {
       height: 100%;
@@ -13,6 +15,7 @@ ul.cont {
         margin-top:-0.44rem;
       }
     }
+
 }
 };
 
@@ -115,5 +118,7 @@ div.swiper {
 
 
 }
+
+
 
 

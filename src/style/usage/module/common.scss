@@ -23,6 +23,13 @@
   src: url(/iconfont/iconfont-2.woff) format("woff"),
   url(/iconfont/iconfont-2.ttf) format("truetype");
 }
+
+@font-face {
+  font-family: yofont;
+  src: url(/iconfont/iconfont-4.woff) format("woff"),
+  url(/iconfont/iconfont-4.ttf) format("truetype");
+}
+
 @include yo-header(
   $name: a,
   $bgcolor: #f56a03,

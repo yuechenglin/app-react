@@ -11,6 +11,7 @@ class Board extends React.Component {
     return (
       <div className="m-board">
         <div className="swiper">
+
           <Carousel>
 					    <li className="item"><img className="img" src="http://common.goufang.com/2013/webapp/images/index.jpg" /></li>  
 					    <li className="item"><img className="img" src="http://common.goufang.com/2013/webapp/images/index2.jpg" /></li>
@@ -62,4 +63,5 @@ class Board extends React.Component {
   
   
 }
+
 export default Board

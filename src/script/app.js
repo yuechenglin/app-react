@@ -23,6 +23,7 @@ ReactDOM.render(
         <Route path="send" title="发布房源" component={Send}></Route>
         <Route path="my" title="我的" component={My}></Route>
       </Route>
+
     </Router>
   </Provider>,
   document.getElementById('root')
