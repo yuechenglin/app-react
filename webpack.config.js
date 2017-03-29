@@ -19,7 +19,7 @@ module.exports = {
     historyApiFallback: false,
     proxy: {
       '/api': {
-        target: 'http://m.goufang.com/',
+        target: 'http://localhost:3000',
         pathRewrite: {'^/api': ''},
         changeOrigin: true
       }

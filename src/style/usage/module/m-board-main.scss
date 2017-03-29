@@ -1,0 +1,27 @@
+ 
+ 
+ .m-boardmain{
+     
+     .part01{
+        @include flexbox();
+        height: .46rem;
+        @include align-items(center);
+        padding:0 .15rem;
+        background:#fff;
+        margin-top:.14rem;
+        h2{
+            @include flex(3);
+            font-size:.18rem;
+            line-height:.46rem;
+        }
+        span{
+            @include flexbox();
+            @include flex(1);
+            font-size:.18rem;
+            line-height:.46rem;
+            @include justify-content(flex-end);
+        }
+     }
+     
+ }
+ 

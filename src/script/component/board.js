@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from '../../component_dev/carousel/src/'
-
+import BoardMain from './board_main.js'
 class Board extends React.Component {
   constructor(props) {
     super(props)
@@ -55,6 +55,9 @@ class Board extends React.Component {
 								      		</span>
 								      	</div>
 					      </div>
+					      
+					     
+					      <BoardMain />
       
       </div>
         
