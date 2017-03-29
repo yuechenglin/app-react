@@ -1,5 +1,10 @@
 import React from 'react'
 
+import { Link } from 'react-router'
+import { connect } from 'react-redux'
+
+import { mapStateToProps, mapDispatchToProps } from '../redux/store'
+
 class My extends React.Component {
 	 constructor(props) {
     super(props)
@@ -48,6 +53,16 @@ class My extends React.Component {
       </div>
     )
   }
+    componentDidUpdate() {
+    let title = this.props.routes[1].title
+    this.props.onChange({
+      type: 'SETTITLE',
+      title: title
+    })
+  }
 }
 
-export default My
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(My)

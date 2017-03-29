@@ -21,19 +21,7 @@
   div.swiper {
     height: 1.9rem;
     background: #f9efd4;
-    
-//     .yo-carousel {
-//       height: 100%;
-//       width: 100%;
-//       li {
-//         height: 100%;
-//         width: 100%;
-//         img {
-//           height: 100%;
-//           width: 100%;
-//         }
-//       }
-//     }
+    touch-action: none;
   }
   > ul {
     height: 1.87rem;
