@@ -34,7 +34,8 @@
 		"minhouse": "96",
 		"ywarea": "1",
 		"remarkNum": 39,
-		"remarkScore": 230
+		"remarkScore": 230,
+		"img":"./images/list01.jpg"
 	}, {
 		"autoid": 1158,
 		"lpname": "大华锦绣华城",
@@ -70,7 +71,8 @@
 		"minhouse": "50",
 		"ywarea": "10",
 		"remarkNum": 28,
-		"remarkScore": 130
+		"remarkScore": 130,
+		"img":"./images/list02.jpg"
 	}, {
 		"autoid": 1174,
 		"lpname": "亿达普罗旺斯",
@@ -106,7 +108,8 @@
 		"minhouse": "69",
 		"ywarea": "10",
 		"remarkNum": 36,
-		"remarkScore": 124
+		"remarkScore": 124,
+		"img":"./images/list03.jpg"
 	}, {
 		"autoid": 2377,
 		"lpname": "龙湖星海彼岸",
@@ -142,7 +145,8 @@
 		"minhouse": "86",
 		"ywarea": "10",
 		"remarkNum": 2,
-		"remarkScore": 0
+		"remarkScore": 0,
+		"img":"./images/list04.jpg"
 	}, {
 		"autoid": 1971,
 		"lpname": "远洋钻石湾",
@@ -178,7 +182,8 @@
 		"minhouse": "43",
 		"ywarea": "4",
 		"remarkNum": 45,
-		"remarkScore": 312
+		"remarkScore": 312,
+		"img":"./images/list05.jpg"
 	}, {
 		"autoid": 2199,
 		"lpname": "远洋荣域",
@@ -214,7 +219,8 @@
 		"minhouse": "57",
 		"ywarea": "4",
 		"remarkNum": 30,
-		"remarkScore": 160
+		"remarkScore": 160,
+		"img":"./images/list06.jpg"
 	}, {
 		"autoid": 2128,
 		"lpname": "大连天地悦丽海湾",
@@ -250,7 +256,8 @@
 		"minhouse": "58",
 		"ywarea": "10",
 		"remarkNum": 30,
-		"remarkScore": 68
+		"remarkScore": 68,
+		"img":"./images/list07.jpg"
 	}, {
 		"autoid": 2288,
 		"lpname": "华丰金山花园",
@@ -286,7 +293,8 @@
 		"minhouse": "43",
 		"ywarea": "4",
 		"remarkNum": 16,
-		"remarkScore": 46
+		"remarkScore": 46,
+		"img":"./images/list08.jpg"
 	}, {
 		"autoid": 2335,
 		"lpname": "万科城市之光",
@@ -322,7 +330,8 @@
 		"minhouse": "93",
 		"ywarea": "4",
 		"remarkNum": 37,
-		"remarkScore": 108
+		"remarkScore": 108,
+		"img":"./images/list09.jpg"
 	}, {
 		"autoid": 1183,
 		"lpname": "亿达春田",
@@ -358,7 +367,8 @@
 		"minhouse": "53",
 		"ywarea": "4",
 		"remarkNum": 109,
-		"remarkScore": 856
+		"remarkScore": 856,
+		"img":"./images/list10.jpg"
 	}, {
 		"autoid": 2323,
 		"lpname": "中华城",
@@ -394,7 +404,8 @@
 		"minhouse": "80",
 		"ywarea": "4",
 		"remarkNum": 45,
-		"remarkScore": 198
+		"remarkScore": 198,
+		"img":"./images/list11.jpg"
 	}, {
 		"autoid": 2108,
 		"lpname": "中航国际广场",
@@ -430,7 +441,8 @@
 		"minhouse": "36",
 		"ywarea": "3",
 		"remarkNum": 26,
-		"remarkScore": 108
+		"remarkScore": 108,
+		"img":"./images/list12.jpg"
 	}, {
 		"autoid": 2217,
 		"lpname": "中国铁建青秀蓝湾",
@@ -466,7 +478,8 @@
 		"minhouse": "80",
 		"ywarea": "4",
 		"remarkNum": 24,
-		"remarkScore": 118
+		"remarkScore": 118,
+		"img":"./images/list13.jpg"
 	}, {
 		"autoid": 2196,
 		"lpname": "三鼎春天",
@@ -502,7 +515,8 @@
 		"minhouse": "45",
 		"ywarea": "4",
 		"remarkNum": 35,
-		"remarkScore": 100
+		"remarkScore": 100,
+		"img":"./images/list14.jpg"
 	}, {
 		"autoid": 2325,
 		"lpname": "万科新里城",
@@ -538,7 +552,8 @@
 		"minhouse": "37",
 		"ywarea": "10",
 		"remarkNum": 20,
-		"remarkScore": 44
+		"remarkScore": 44,
+		"img":"./images/list15.jpg"
 	}, {
 		"autoid": 2021,
 		"lpname": "大湖山语",
@@ -574,7 +589,8 @@
 		"minhouse": "97",
 		"ywarea": "10",
 		"remarkNum": 25,
-		"remarkScore": 118
+		"remarkScore": 118,
+		"img":"./images/list16.jpg"
 	}, {
 		"autoid": 2276,
 		"lpname": "中海凤凰熙岸",
@@ -610,7 +626,8 @@
 		"minhouse": "52",
 		"ywarea": "4",
 		"remarkNum": 9,
-		"remarkScore": 46
+		"remarkScore": 46,
+		"img":"./images/list17.jpg"
 	}, {
 		"autoid": 1073,
 		"lpname": "悦泰福里",
@@ -646,7 +663,8 @@
 		"minhouse": "70",
 		"ywarea": "2",
 		"remarkNum": 36,
-		"remarkScore": 158
+		"remarkScore": 158,
+		"img":"./images/list18.jpg"
 	}, {
 		"autoid": 2349,
 		"lpname": "万科半山半海",
@@ -682,7 +700,8 @@
 		"minhouse": "95",
 		"ywarea": "3",
 		"remarkNum": 29,
-		"remarkScore": 94
+		"remarkScore": 94,
+		"img":"./images/list19.jpg"
 	}, {
 		"autoid": 2281,
 		"lpname": "中海天赋山",
@@ -718,7 +737,8 @@
 		"minhouse": "56",
 		"ywarea": "3",
 		"remarkNum": 23,
-		"remarkScore": 82
+		"remarkScore": 82,
+		"img":"./images/list20.jpg"
 	}],
 	"guanggao": [],
 	"daogou": [{

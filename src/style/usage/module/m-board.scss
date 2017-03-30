@@ -47,11 +47,16 @@ div.swiper {
     @include flexbox();
     border-bottom:1px solid #EEEEEE;
     li{
-        @include flexbox();
-        @include flex-direction(column);
-        @include justify-content(space-around);
-        @include align-items(center);
+        
         @include flex(1);
+        
+         a{
+            @include flexbox();
+            @include flex-direction(column);
+            @include justify-content(space-around);
+            @include align-items(center);
+            color:#222;
+        }
     }
 }
 

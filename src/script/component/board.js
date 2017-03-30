@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 import Carousel from '../../component_dev/carousel/src/'
 import BoardMain from './board_main.js'
 class Board extends React.Component {
@@ -19,20 +20,28 @@ class Board extends React.Component {
         </div>
         <ul>
               <li>
+               <Link to="/xinfang">
                <img alt="" src="./images/banner01.png"/>
                 <b>新房</b>
+                </Link>
               </li>
               <li>
-                <img alt="" src="./images/banner02.png"/>
-                <b>二手房</b>
+	              <Link to="/ershoufang">
+	                <img alt="" src="./images/banner02.png"/>
+	                <b>二手房</b>
+	              </Link>
               </li>
               <li>
+               <Link to="/zufang">
                 <img alt="" src="./images/banner03.png"/>
                 <b>租房</b>
+                </Link>
               </li>
               <li>
+              <Link to="/send">
                 <img alt="" src="./images/banner04.png"/>
                 <b>卖房</b>
+                </Link>
               </li>
         </ul>
       

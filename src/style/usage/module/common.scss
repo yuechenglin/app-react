@@ -30,6 +30,12 @@
   url(/iconfont/iconfont-4.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: yofont;
+  src: url(/iconfont/iconfont-6.woff) format("woff"),
+  url(/iconfont/iconfont-6.ttf) format("truetype");
+}
+
 @include yo-header(
   $name: a,
   $bgcolor: #f56a03,
