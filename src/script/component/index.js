@@ -15,10 +15,7 @@ class Index extends React.Component {
       <div className="m-index">
         <header>
           <div className="yo-header yo-header-a">
-
             <h2 className="title">{this.props.value}</h2>
-           
-
           </div>
         </header>
         <section>
@@ -59,7 +56,11 @@ class Index extends React.Component {
   }
 
   componentDidMount() {
-    // console.log(this.refs.board.props.title);
+   let title = this.props.routes[1].title
+    this.props.onChange({
+      type: 'SETTITLE',
+      title: title
+    })
   }
 
   componentDidUpdate() {

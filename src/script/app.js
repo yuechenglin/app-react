@@ -2,7 +2,7 @@ require('../style/app.scss')
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Router, Route, IndexRoute, IndexRedirect, hashHistory } from 'react-router'
+import { Router, Route, IndexRoute, IndexRedirect, hashHistory,browserHistory} from 'react-router'
 
 import { Provider } from 'react-redux'
 import { store } from './redux/store'
@@ -24,9 +24,7 @@ ReactDOM.render(
         <Route path="my" title="我的" component={My}></Route>
       </Route>
 
-      <Route path="/Register" title="登录" component={Register}></Route>
-
-
+      <Route path="/Register/:type"  component={Register}></Route>
 
     </Router>
   </Provider>,
