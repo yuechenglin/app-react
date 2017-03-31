@@ -11,7 +11,20 @@ class Ershoufang extends React.Component {
 	render() {
 		return (
 			<div className="m-ershoufang">
-				二手房
+				<ul className="header-list">
+					<li>
+						<select><option>区域</option></select>
+					</li>
+					<li>
+						<select><option>总价</option></select>
+					</li>
+					<li>
+						<select><option>户型</option></select>
+					</li>
+					<li>
+						<select><option>更多</option></select>
+					</li>
+				</ul>
 			</div>
 		)
 	}

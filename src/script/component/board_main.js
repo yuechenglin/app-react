@@ -2,12 +2,12 @@ import React from 'react'
 import fetchData from '../util/util.fetch.js'
 class BoardMain extends React.Component {
 	constructor(props) {
-    super(props)
-		 this.state = {
-		      list: [<div/>],
-		      list_bottom: [<div/>]
-	    }
- 	}
+	    super(props)
+			this.state = {
+			      list: [<div/>],
+			      list_bottom: [<div/>]
+		    }
+	 	}
 	
 	
 		componentWillMount() {
@@ -21,7 +21,7 @@ class BoardMain extends React.Component {
 				let arr = reg.map(function (i){
 					return (<span>{i}</span>)
 				})
-				console.log(arr)
+//				console.log(arr)
 				this.setState({
 			        list_bottom:arr
 			    })

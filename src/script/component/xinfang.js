@@ -10,7 +10,7 @@ class Xinfang extends React.Component {
 	
 	render() {
 		return (
-			<div className="m-ershoufang">
+			<div className="m-xinfang">
 				新房11111111111111
 			</div>
 		)

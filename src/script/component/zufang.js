@@ -10,7 +10,7 @@ class Zufang extends React.Component {
 	
 	render() {
 		return (
-			<div className="m-ershoufang">
+			<div className="m-zufang">
 				租房
 			</div>
 		)
