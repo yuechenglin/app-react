@@ -11,8 +11,7 @@ class My extends React.Component {
 	    super(props)
 	    
 		this.state = {
-	      name: "",
-	    
+	      name: ""
 	    }
 		
 	  }
@@ -77,17 +76,16 @@ class My extends React.Component {
 
 	
 	quit () {
-		if(this.state.btn=="退出"){
-	    	Confirm({
+	    Confirm({
 			    content:'确定退出么?',
 			    btnText:['确定','取消']
 			}).then(
-//				 if (${res}=="true") {
-//				 	 localStorage.removeItem("userID")
-//				 }
-			);
-	    }
-		
+				res => {
+					console.log(res)
+					
+				}
+//				sessionStorage.removeItem("userID")
+			)
 	}
 	componentDIdMount(){
 		
