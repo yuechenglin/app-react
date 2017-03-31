@@ -82,9 +82,11 @@ class My extends React.Component {
 			}).then(
 				res => {
 					console.log(res)
-					
-				}
-//				sessionStorage.removeItem("userID")
+					if(res==true){
+						sessionStorage.removeItem("userID")
+						location.reload(true)
+					}
+				}	
 			)
 	}
 	componentDIdMount(){

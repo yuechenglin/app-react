@@ -15,8 +15,8 @@ class Send extends React.Component {
       		frist = () => {
       			return (
 	      			<div className="frist">
-	      					<input type="text" placeholder="请输入或选择小区名称"/>
-	      					<input type="text" placeholder="请输入或选择行政街道"/>
+	      					<input className="inpt" type="text" placeholder="请输入或选择小区名称"/>
+	      					<input className="inpt" type="text" placeholder="请输入或选择行政街道"/>
 	      					
 	      					<div className="box">
 	      						<div>
