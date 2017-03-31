@@ -8,8 +8,10 @@ module.exports = {
 
   output: {
     path: __dirname + '/build',
-    // filename: 'app_[hash].js'
-    filename: 'app.js'
+
+//     filename: 'app_[hash].js'
+	     filename: 'app.js'
+
   },
 
   devServer: {
@@ -19,7 +21,7 @@ module.exports = {
     historyApiFallback: false,
     proxy: {
       '/api': {
-        target: 'http://m.goufang.com/',
+        target: 'http://localhost:3000',
         pathRewrite: {'^/api': ''},
         changeOrigin: true
       }
@@ -59,6 +61,7 @@ module.exports = {
   },
 
   plugins: [
+
     // new webpack.optimize.UglifyJsPlugin({
     //   compress: {
     //     warnings: false
@@ -67,6 +70,7 @@ module.exports = {
     //     comments: false
     //   }
     // }),
+
     new HtmlWebpackPlugin({
       template: './src/index.ejs',
       filename: 'index.html',

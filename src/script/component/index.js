@@ -26,7 +26,7 @@ class Index extends React.Component {
             <li className="active">
               <Link to="/board" activeClassName="active">
                 <i className="yo-ico">&#xe600;</i>
-                <b>首页</b>
+                <b>购房网</b>
               </Link>
             </li>
             <li>
@@ -37,7 +37,7 @@ class Index extends React.Component {
             </li>
             <li>
             <Link to="/send" activeClassName="active">
-              <i className="yo-ico">&#xe622;</i>
+              <i className="yo-ico">&#xe601;</i>
               <b>卖房</b>
             </Link>
             </li>
