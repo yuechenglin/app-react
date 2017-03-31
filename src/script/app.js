@@ -30,7 +30,7 @@ ReactDOM.render(
 				<Route path="xinfang" title="新房" component={Xinfang}></Route>
 				<Route path="zufang" title="租房" component={Zufang}></Route>
       </Route>
-			
+
     </Router>
   </Provider>,
   document.getElementById('root')

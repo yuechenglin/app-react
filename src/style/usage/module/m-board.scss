@@ -3,10 +3,9 @@
 @include yo-carousel(
 
 ){
-
-height: 100%;
-ul.cont {
-
+  height: 100%;
+  
+  ul.cont {
     height: 100%;
     li {
       height: 100%;
@@ -15,33 +14,21 @@ ul.cont {
         margin-top:-0.44rem;
       }
     }
-
-}
+  }
 };
 
 .m-board {
-    touch-action: none;
-div.swiper {
+  div.swiper {
     height: 1.9rem;
     background: #f9efd4;
-//     .yo-carousel {
-//       height: 100%;
-//       width: 100%;
-//       li {
-//         height: 100%;
-//         width: 100%;
-//         img {
-//           height: 100%;
-//           width: 100%;
-//         }
-//       }
-//     }
-}
-> ul {
-    height: 1.31rem;
-//  margin: .2rem 0;
-//  padding: .1rem;
+    touch-action: none;
+  }
+  > ul {
+    height: 1.87rem;
+    margin: .2rem 0;
+    padding: .1rem;
     background: #fff;
+
     border-botom:1px solid #999;
     padding:.15rem 0;
     @include flexbox();
@@ -125,6 +112,7 @@ div.swiper {
 
 
 }
+
 
 
 
