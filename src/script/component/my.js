@@ -7,7 +7,7 @@ import { mapStateToProps, mapDispatchToProps } from '../redux/store'
 
 class My extends React.Component {
 	 constructor(props) {
-<<<<<<< HEAD
+
 	    super(props)
 	    
 		this.state = {
@@ -27,12 +27,7 @@ class My extends React.Component {
 	   
 	    
 	 }
-=======
-    super(props)
 
-  }
-	 
->>>>>>> 4ee843af090967bddf7858aa53350a7e92682551
   render() {
     return (
       <div className="m-my">
@@ -75,7 +70,7 @@ class My extends React.Component {
       </div>
     )
   }
-<<<<<<< HEAD
+
 
 	
 	quit () {
@@ -90,12 +85,11 @@ class My extends React.Component {
 //				sessionStorage.removeItem("userID")
 			)
 	}
-	componentDIdMount(){
+	
 		
 	}
 
-=======
->>>>>>> 4ee843af090967bddf7858aa53350a7e92682551
+
     componentDidUpdate() {
     let title = this.props.routes[1].title
     this.props.onChange({
