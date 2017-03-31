@@ -23,17 +23,18 @@ class Send extends React.Component {
 	      							<input type="text"/><span>单元,</span>
 	      							<input type="text"/><span>室</span>
 	      						</div>
-	      						<div>2室2厅1卫∨</div>
+	      						<div className="oclick">2室2厅1卫∨</div>
 	      					</div>
 	      					
 	      					<div className="box1">
-	      						<div><input type="text" placeholder="面积"/>m²</div>
-	      						<div>
+	      						<div><input type="text" placeholder="面积"/> m²</div>
+	      						<div className="inpu">
 	      							第<input type="text"/>层,共<input type="text"/>层
 	      						</div>
-	      						<div>
-	      							¥<input type="text" placeholder="实价"/>万
+	      						<div className="inpu1">
+	      							¥ <input type="text" placeholder="实价"/> 万
 	      						</div>
+	      						
 	      						<select>
 	      							<option>精装</option>
 	      							<option>豪装</option>
@@ -44,37 +45,37 @@ class Send extends React.Component {
 	      					</div>
 	      					
 	      					<div className="box2">
-	      						<table>
-	      								<tr>
-	      									<td>南北</td>
-	      									<td>东南北</td>
-	      									<td>西南北</td>
-	      									<td>南</td>
-	      									<td>西</td>
-	      								</tr>
-	      								<tr>
-	      									<td>北</td>
-	      									<td>东南</td>
-	      									<td>西南</td>
-	      									<td>西北</td>
-	      									<td>东北</td>
-	      								</tr>
-	      								<tr>
-	      									<td>东</td>
-	      									<td>东西</td>
-	      								</tr>
-	      						</table>
+	      						<div className="table">
+	      								<div>
+	      									<div>南北</div>
+	      									<div>东南北</div>
+	      									<div>西南北</div>
+	      									<div>南</div>
+	      									<div>西</div>
+	      								</div>
+	      								<div>
+	      									<div>北</div>
+	      									<div>东南</div>
+	      									<div>西南</div>
+	      									<div>西北</div>
+	      									<div>东北</div>
+	      								</div>
+	      								<div>
+	      									<div className="one1">东</div>
+	      									<div className="one1">东西</div>
+	      								</div>
+	      						</div>
 	      					</div>
 	      					
 	      					<div className="box3">
 	      						<div>
-	      							姓名  <input type="text" placeholder="姓名"/>
+	      							姓 名  &nbsp; &nbsp;<input className="Input" type="text" placeholder="姓名"/>
 	      						</div>
 	      						<div>
-	      							手机号  <input type="text" placeholder="手机号"/>
+	      							手机号  <input className="Input1" type="text" placeholder="手机号"/>
 	      						</div>
 	      					</div>
-	      					<input type="button" value="保存"/>
+	      					<input className="keep" type="button" value="保存"/>
 	      			</div>
       			)	
       		}		
@@ -89,11 +90,9 @@ class Send extends React.Component {
     			
     		}   		
 	    }
-	    console.log(frist)
 	    this.setState({
 	       Frist:frist() 
 	    }) 
-	    console.log(this.state.Frist)
 	 }
     render() {
 	    return (
